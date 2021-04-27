@@ -8,6 +8,8 @@
 /* fonts */
 h1 {
   font-size: 80px;
+  margin: 0;
+  width: 80%;
 }
 
 h2 {
@@ -20,6 +22,7 @@ p, li {
 
 p {
   font-size: 18px;
+  margin: 0;
 }
 
 .gridText {
@@ -35,6 +38,10 @@ div {
 }
 
 /* div 1 */
+.firstText {
+  width: 40%;
+  padding: 30px 0;
+}
 
 /* div 2 */
 .div2 {
@@ -122,6 +129,7 @@ button {
   width: 170px;
   border: 0;
   border-radius: 50px;
+  color: white;
 }
 
 .purpButton {
