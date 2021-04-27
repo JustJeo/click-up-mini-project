@@ -5,8 +5,20 @@
   width: 90%;
 }
 
+p, li {
+  font-family: Avenir;
+}
+
+div {
+  margin: 100px;
+}
+
 .div2 {
   background-color: rgba(240, 99, 184, 0.15);
+}
+
+.center {
+  text-align: center;
 }
 
 .twoWomen {
@@ -19,6 +31,7 @@
 
 .gridPic {
   width: 230px;
+  height: 200px;
 }
 
 .profile {
@@ -26,12 +39,30 @@
   height: auto;
 }
 
+button {
+  height: 60px;
+}
+
 .demo {
   font-size: 16px;
   background: white;
   width: 210px;
-  height: 60px;
   border: 0;
   border-radius: 50px;
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+}
+
+.purpButton, .pinkButton {
+  font-size: 18px;
+  width: 170px;
+  border: 0;
+  border-radius: 50px;
+}
+
+.purpButton {
+  background-color: rgba(156, 105, 226, 1);
+}
+
+.pinkButton {
+  background: rgba(240, 99, 184, 1);
 }
