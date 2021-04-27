@@ -1,3 +1,27 @@
 * {
   font-family: Helvetica;
+  list-style-type: none;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.div2 {
+  background-color: rgba(240, 99, 184, 0.15);
+}
+
+.twoWomen {
+  width: 885px;
+}
+
+.pinkGraph {
+  width: 475px;
+}
+
+.gridPic {
+  width: 230px;
+}
+
+.profile {
+  width: 90px;
+  height: auto;
 }
