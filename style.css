@@ -5,10 +5,85 @@
   width: 90%;
 }
 
-.div2 {
-  background-color: rgba(240, 99, 184, 0.15);
+/* fonts */
+h1 {
+  font-size: 80px;
 }
 
+h2 {
+  font-size: 40px;
+}
+
+p, li {
+  font-family: Avenir;
+}
+
+p {
+  font-size: 18px;
+}
+
+.gridText {
+  font-size: 16px;
+  border-radius: 50px;
+  width: 40%;
+  display: inline;
+}
+
+/* overall divs */
+div {
+  margin: 100px;
+}
+
+/* div 1 */
+
+/* div 2 */
+.div2 {
+  background-color: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+}
+
+/* div 3 */
+.div3 {
+  display: grid;
+}
+
+.center {
+  text-align: center;
+  width: 50%;
+}
+
+#search {
+  background: rgba(104, 201, 186, 0.1);
+}
+
+#hours {
+  background: rgba(156, 105, 226, 0.1);
+}
+
+#printOut {
+  background: rgba(240, 99, 184, 0.1);
+}
+
+#security {
+  background: rgba(45, 156, 219, 0.1);
+}
+
+/* div 4 */
+.div4 {
+  background-color: rgba(156, 105, 226, 1);
+  border-radius: 50px;
+  padding: 50px;
+}
+
+.review {
+  background-color: white;
+  margin: 25px;
+  padding: 25px;
+}
+
+/* div 5 */
+
+/* images */
 .twoWomen {
   width: 885px;
 }
@@ -19,9 +94,40 @@
 
 .gridPic {
   width: 230px;
+  height: 200px;
 }
 
 .profile {
   width: 90px;
   height: auto;
+}
+
+
+/* buttons */
+button {
+  height: 60px;
+}
+
+.demo {
+  font-size: 16px;
+  background: white;
+  width: 210px;
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+}
+
+.purpButton, .pinkButton {
+  font-size: 18px;
+  width: 170px;
+  border: 0;
+  border-radius: 50px;
+}
+
+.purpButton {
+  background-color: rgba(156, 105, 226, 1);
+}
+
+.pinkButton {
+  background: rgba(240, 99, 184, 1);
 }
