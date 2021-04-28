@@ -35,11 +35,28 @@ p {
 nav {
   display: flex;
   float: left;
-  padding: 50px;
+  padding: 50px 0;
 }
 
 nav ul {
   display: flex;
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  float: left;
+  padding: 50px 0;
+}
+
+footer ul {
+  display: flex;
+  padding: 20px;
+}
+
+footer ul li {
+  list-style-type: none;
+  margin: auto;
   padding: 20px;
 }
 
@@ -104,6 +121,10 @@ div {
   padding: 50px;
 } */
 
+.try {
+  margin: 50px;
+}
+
 /* images */
 .twoWomen {
   width: 885px;
@@ -157,4 +178,28 @@ button {
 .pinkButton {
   background: rgba(240, 99, 184, 1);
   float: right;
+}
+
+.logo {
+  width: 50px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  float: left;
+}
+
+.purpLogo {
+  background: rgba(156, 105, 226, 1);
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  padding: 0;
+}
+
+.pinkLogo {
+  background: rgba(240, 99, 184, 1);
+  width: 20px;
+  height: 35px;
+  border-radius: 20px;
+  padding: 0;
 }
