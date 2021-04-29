@@ -10,16 +10,19 @@ h1 {
   font-size: 80px;
   margin: 0;
   width: 50%;
+  padding: 25px;
 }
 
 h2 {
   font-size: 40px;
   margin: 0;
+  padding: 25px;
 }
 
 h4 {
   margin: 0;
   font-size: 20px;
+  padding: 25px;
 }
 
 p, li {
@@ -29,23 +32,29 @@ p, li {
 p {
   font-size: 18px;
   margin: 0;
+  padding: 25px;
 }
 
 .gridText p {
   font-size: 16px;
 }
 
+.test {
+  color: white;
+}
+
 /* nav and footer */
 nav {
   float: left;
   padding: 50px 0;
+  width: 100%;
 }
 
 nav ul {
   display: flex;
   float: left;
   width: 300px;
-  margin: 100px;
+  margin: 0 100px;
   padding: 20px;
 }
 
@@ -80,7 +89,7 @@ div {
 
 /* div 1 */
 .firstText {
-  width: 25%;
+  width: 32%;
   padding: 30px 0;
 }
 
@@ -134,6 +143,7 @@ div {
   background-color: white;
   margin: 25px;
   padding: 25px;
+  border-radius: 50px;
 }
 
 /* div 5 */
@@ -149,8 +159,8 @@ div {
 .twoWomen {
   width: 885px;
   position: absolute;
-  right: 100px;
-  top: 333px;
+  right: 125px;
+  top: 250px;
 }
 
 .pinkGraph {
