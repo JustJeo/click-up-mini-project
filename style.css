@@ -20,6 +20,11 @@ h2 {
   font-size: 40px;
 }
 
+h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
 h4 {
   font-size: 20px;
 }
@@ -177,6 +182,7 @@ div {
 .gridPic {
   width: 230px;
   height: 200px;
+  float: left;
 }
 
 .profile {
@@ -242,8 +248,4 @@ button {
   height: 35px;
   border-radius: 20px;
   padding: 0;
-}
-
-.containerText {
-  display: inline;
 }
