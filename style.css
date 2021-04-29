@@ -8,6 +8,8 @@
 /* fonts */
 h1 {
   font-size: 80px;
+  margin: 0;
+  width: 80%;
 }
 
 h2 {
@@ -20,6 +22,7 @@ p, li {
 
 p {
   font-size: 18px;
+  margin: 0;
 }
 
 .gridText {
@@ -29,12 +32,44 @@ p {
   display: inline;
 }
 
+nav {
+  display: flex;
+  float: left;
+  padding: 50px 0;
+}
+
+nav ul {
+  display: flex;
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  float: left;
+  padding: 50px 0;
+}
+
+footer ul {
+  display: flex;
+  padding: 20px;
+}
+
+footer ul li {
+  list-style-type: none;
+  margin: auto;
+  padding: 20px;
+}
+
 /* overall divs */
 div {
-  margin: 100px;
+  padding: 10px;
 }
 
 /* div 1 */
+.firstText {
+  width: 40%;
+  padding: 30px 0;
+}
 
 /* div 2 */
 .div2 {
@@ -82,10 +117,20 @@ div {
 }
 
 /* div 5 */
+/* .div5 {
+  padding: 50px;
+} */
+
+.try {
+  margin: 50px;
+}
 
 /* images */
 .twoWomen {
   width: 885px;
+  position: absolute;
+  right: 100px;
+  top: 333px;
 }
 
 .pinkGraph {
@@ -109,6 +154,7 @@ button {
 }
 
 .demo {
+  float: right;
   font-size: 16px;
   background: white;
   width: 210px;
@@ -122,6 +168,7 @@ button {
   width: 170px;
   border: 0;
   border-radius: 50px;
+  color: white;
 }
 
 .purpButton {
@@ -130,4 +177,30 @@ button {
 
 .pinkButton {
   background: rgba(240, 99, 184, 1);
+  float: right;
+}
+
+.logo {
+  width: 50px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  float: left;
+}
+
+.purpLogo {
+  background: rgba(156, 105, 226, 1);
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.pinkLogo {
+  background: rgba(240, 99, 184, 1);
+  width: 20px;
+  height: 35px;
+  border-radius: 20px;
+  padding: 0;
 }
