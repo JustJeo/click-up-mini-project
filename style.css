@@ -9,11 +9,17 @@
 h1 {
   font-size: 80px;
   margin: 0;
-  width: 80%;
+  width: 50%;
 }
 
 h2 {
   font-size: 40px;
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+  font-size: 20px;
 }
 
 p, li {
@@ -25,13 +31,11 @@ p {
   margin: 0;
 }
 
-.gridText {
+.gridText p {
   font-size: 16px;
-  border-radius: 50px;
-  width: 40%;
-  display: inline;
 }
 
+/* nav and footer */
 nav {
   float: left;
   padding: 50px 0;
@@ -41,6 +45,7 @@ nav ul {
   display: flex;
   float: left;
   width: 300px;
+  margin: 100px;
   padding: 20px;
 }
 
@@ -54,15 +59,18 @@ footer {
   padding: 50px 0;
 }
 
+footer p {
+  font-size: 16px;
+}
+
 footer ul {
-  display: flex;
   padding: 20px;
 }
 
 footer ul li {
-  list-style-type: none;
   margin: auto;
   padding: 20px;
+  font-size: 16px;
 }
 
 /* overall divs */
@@ -72,7 +80,7 @@ div {
 
 /* div 1 */
 .firstText {
-  width: 40%;
+  width: 25%;
   padding: 30px 0;
 }
 
@@ -90,6 +98,13 @@ div {
 .center {
   text-align: center;
   width: 50%;
+  margin: 0 auto;
+}
+
+.gridText {
+  border-radius: 50px;
+  width: 40%;
+  display: inline;
 }
 
 #search {
@@ -122,12 +137,12 @@ div {
 }
 
 /* div 5 */
-/* .div5 {
-  padding: 50px;
-} */
+.div5 {
+  margin: 0;
+}
 
 .try {
-  margin: 50px;
+  margin: 50px 0;
 }
 
 /* images */
