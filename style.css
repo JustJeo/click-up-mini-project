@@ -39,6 +39,7 @@ p, li {
 
 .gridText p {
   font-size: 16px;
+  width: 50%;
 }
 
 .test {
@@ -122,10 +123,19 @@ div {
   margin: 0 auto;
 }
 
-.gridText {
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.card {
   border-radius: 50px;
-  width: 40%;
-  display: inline;
+  position: relative;
+}
+
+.gridText {
+  margin-left: 50%;
 }
 
 #search {
@@ -183,9 +193,9 @@ div {
 }
 
 .gridPic {
+  position: absolute;
   width: 230px;
-  height: 200px;
-  float: left;
+  height: auto;
 }
 
 .profile {
@@ -255,4 +265,8 @@ button {
 
 .pinkText {
   width: 100%;
+}
+
+.centerText {
+  padding: 100px;
 }
