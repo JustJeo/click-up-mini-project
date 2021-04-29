@@ -33,14 +33,19 @@ p {
 }
 
 nav {
-  display: flex;
   float: left;
   padding: 50px 0;
 }
 
 nav ul {
   display: flex;
+  float: left;
+  width: 300px;
   padding: 20px;
+}
+
+nav ul li {
+  text-align: center;
 }
 
 footer {
