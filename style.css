@@ -6,46 +6,57 @@
 }
 
 /* fonts */
+h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 25px 0;
+}
+
 h1 {
   font-size: 80px;
-  margin: 0;
   width: 50%;
 }
 
 h2 {
   font-size: 40px;
-  margin: 0;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 400;
 }
 
 h4 {
-  margin: 0;
   font-size: 20px;
+}
+
+p {
+  font-size: 18px;
 }
 
 p, li {
   font-family: Avenir;
 }
 
-p {
-  font-size: 18px;
-  margin: 0;
-}
-
 .gridText p {
   font-size: 16px;
+}
+
+.test {
+  color: white;
 }
 
 /* nav and footer */
 nav {
   float: left;
   padding: 50px 0;
+  width: 100%;
 }
 
 nav ul {
   display: flex;
   float: left;
   width: 300px;
-  margin: 100px;
+  margin: 0 100px;
   padding: 20px;
 }
 
@@ -78,9 +89,18 @@ div {
   padding: 10px;
 }
 
+/* major divs */
+.div1, .div2, .div3, .div4, .div5 {
+  padding: 50px 0;
+}
+
 /* div 1 */
+.div1 {
+  padding-bottom: 150px;
+}
+
 .firstText {
-  width: 25%;
+  width: 32%;
   padding: 30px 0;
 }
 
@@ -88,6 +108,7 @@ div {
 .div2 {
   background-color: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
+  padding: 100px 0;
 }
 
 /* div 3 */
@@ -134,6 +155,7 @@ div {
   background-color: white;
   margin: 25px;
   padding: 25px;
+  border-radius: 50px;
 }
 
 /* div 5 */
@@ -149,17 +171,21 @@ div {
 .twoWomen {
   width: 885px;
   position: absolute;
-  right: 100px;
-  top: 333px;
+  right: 125px;
+  top: 250px;
 }
 
 .pinkGraph {
   width: 475px;
+  float: left;
+  margin-top: -100px;
+  margin-right: 100px;
 }
 
 .gridPic {
   width: 230px;
   height: 200px;
+  float: left;
 }
 
 .profile {
@@ -193,6 +219,7 @@ button {
 
 .purpButton {
   background-color: rgba(156, 105, 226, 1);
+  margin: 25px 0;
 }
 
 .pinkButton {
@@ -200,6 +227,7 @@ button {
   float: right;
 }
 
+/* logo */
 .logo {
   width: 50px;
   display: flex;
@@ -223,4 +251,8 @@ button {
   height: 35px;
   border-radius: 20px;
   padding: 0;
+}
+
+.pinkText {
+  width: 100%;
 }
