@@ -33,8 +33,12 @@ p {
   font-size: 18px;
 }
 
-p, li {
+p, li, a {
   font-family: Avenir;
+}
+
+a {
+  text-decoration: none;
 }
 
 .gridText p {
@@ -170,6 +174,7 @@ div {
 .div4 {
   background: rgba(156, 105, 226, 1);
   border-radius: 50px;
+  overflow: hidden;
 }
 
 .reviewContainer {
@@ -194,7 +199,9 @@ div {
 }
 
 .reviewText h3 {
-  padding: 0;
+  padding: 5px 0;
+  font-weight: 800;
+  font-size: 18px;
 }
 
 .reviewText p {
@@ -205,9 +212,17 @@ div {
   padding: 50px;
 } */
 
-/* #jeny {
-  width: 250px;
-} */
+#jeny {
+  background: linear-gradient(to right, rgba(255,255,255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(156, 105, 226, 1));
+}
+
+#jeny a, #jeny p {
+  opacity: 0.5;
+}
+
+#jeny {
+  margin-right: 0;
+}
 
 /* div 5 */
 .div5 {
