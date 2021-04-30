@@ -224,6 +224,10 @@ div {
   margin-right: 0;
 }
 
+.testArrow {
+  float: right;
+}
+
 /* div 5 */
 .div5 {
   margin: 0;
@@ -318,6 +322,32 @@ button {
   background: rgba(240, 99, 184, 1);
   width: 20px;
   height: 35px;
+  border-radius: 20px;
+  padding: 0;
+}
+
+.testCir {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  float: left;
+  width: 55px;
+  height: 10px;
+  margin-left: 5%;
+}
+
+.pinkCir {
+  background: rgba(240, 99, 184, 1);
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  padding: 0;
+}
+
+.whiteCir {
+  background: white;
+  width: 5px;
+  height: 5px;
   border-radius: 20px;
   padding: 0;
 }
