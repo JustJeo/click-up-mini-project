@@ -175,6 +175,7 @@ div {
   background: rgba(156, 105, 226, 1);
   border-radius: 50px;
   overflow: hidden;
+  padding: 25px 0;
 }
 
 .reviewContainer {
@@ -208,10 +209,6 @@ div {
   line-height: 32px;
 }
 
-/* #john {
-  padding: 50px;
-} */
-
 #jeny {
   background: linear-gradient(to right, rgba(255,255,255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(156, 105, 226, 1));
 }
@@ -224,8 +221,15 @@ div {
   margin-right: 0;
 }
 
-.testArrow {
+.testArrows {
+  display: flex;
   float: right;
+  width: 100px;
+}
+
+.testArrows p {
+  padding: 0;
+  margin: 0 auto;
 }
 
 /* div 5 */
