@@ -41,6 +41,11 @@ a {
   text-decoration: none;
 }
 
+hr {
+  color: rgba(156, 105, 226, 1);
+  margin: 100px auto;
+}
+
 .gridText p {
   font-size: 16px;
   width: 60%;
@@ -104,6 +109,10 @@ div {
 /* div 1 */
 .div1 {
   padding-bottom: 150px;
+}
+
+nav button {
+  float: right;
 }
 
 .firstText {
@@ -175,7 +184,8 @@ div {
   background: rgba(156, 105, 226, 1);
   border-radius: 50px;
   overflow: hidden;
-  padding: 25px 0;
+  padding: 50px 0;
+  margin: 50px auto;
 }
 
 .reviewContainer {
@@ -234,11 +244,16 @@ div {
 
 /* div 5 */
 .div5 {
-  margin: 0;
+  padding: 0;
+  position: relative;
 }
 
 .try {
-  margin: 50px 0;
+  margin-left: 0;
+}
+
+.try h2 {
+  padding: 0;
 }
 
 /* images */
@@ -277,7 +292,6 @@ button {
 }
 
 .demo {
-  float: right;
   font-size: 16px;
   background: white;
   width: 210px;
@@ -301,7 +315,15 @@ button {
 
 .pinkButton {
   background: rgba(240, 99, 184, 1);
+}
+
+.bottomButtons {
+  display: flex;
   float: right;
+  width: 410px;
+  position: absolute;
+  top: 25px;
+  right: 0;
 }
 
 /* logo */
