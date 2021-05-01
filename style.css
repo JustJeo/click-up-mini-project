@@ -279,8 +279,8 @@ nav button {
 .twoWomen {
   width: 50%;
   position: absolute;
-  right: 10%;
-  top: 40%;
+  right: 5%;
+  top: 25%;
 }
 
 .pinkGraph {
@@ -340,7 +340,7 @@ button {
 .bottomButtons {
   display: flex;
   float: right;
-  width: 50%;
+  width: 30%;
   position: absolute;
   top: 10%;
   right: 0;
@@ -417,32 +417,15 @@ button {
 /* Cell Phone */
 /* 600px and down */
 @media only screen and (max-width: 600px) {
-    /* Div 3 */
-  .center {
-    width: 100%;
-  }
 
-  .centerText {
-    padding: 0;
-  }
-
-  .gridContainer {
-    grid-template-columns: 1fr;
-  }
-
-  .gridText p {
-    padding: 10px 0;
-    width: 70%;
-  }
-
-  .card {
-    padding: 0;
-  }
 }
 
 /* Tablet */
 /* 600px and up */
 @media only screen and (max-width: 750px) and (min-width: 601px) {
+  * {
+    width: 95%
+  }
   /* Div 1 */
   .div1 {
     padding-bottom: 25px;
@@ -454,6 +437,11 @@ button {
 
   nav ul {
     margin: 0 auto;
+    padding: 20px 0;
+  }
+
+  nav ul li {
+    font-size: 12px;
   }
 
   nav .demo {
@@ -467,12 +455,17 @@ button {
   }
 
   .twoWomen {
-    right: 50px;
-    top: 250px;
+    top: 15%;
+    right: 5%;
   }
 
   .firstText {
     width: 100%;
+    padding-top: 35px;
+  }
+
+  .purpButton {
+    margin: 0 0 25px 0;
   }
 
   /* Div 2 */
