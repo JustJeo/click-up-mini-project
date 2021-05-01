@@ -69,7 +69,7 @@ nav ul {
   display: flex;
   float: left;
   width: 300px;
-  margin: 0 100px;
+  margin: 0 0 0 10%;
   padding: 20px;
 }
 
@@ -116,7 +116,6 @@ div {
 
 nav button {
   float: right;
-  width: 25%;
 }
 
 .firstText {
@@ -151,7 +150,7 @@ nav button {
 }
 
 .centerText {
-  padding: 100px 0;
+  padding: 10% 0;
 }
 
 .gridContainer {
@@ -159,7 +158,7 @@ nav button {
   grid-template-columns: 1fr 1fr;
   gap: 50px;
   grid-column-gap: 150px;
-  margin-left: 100px;
+  margin-left: 10%;
 }
 
 .card {
@@ -449,17 +448,22 @@ button {
     padding-bottom: 25px;
   }
 
+  nav {
+    padding: 0;
+  }
+
   nav ul {
     margin: 0 auto;
   }
 
   nav .demo {
     width: 30%;
+    font-size: 12px;
   }
 
   h1 {
     margin-top: 0;
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .twoWomen {
@@ -478,6 +482,7 @@ button {
 
   .div2 h2{
     padding: 0;
+    font-size: 30px;
   }
   
   .div2 h2, .div2 p {
@@ -499,6 +504,7 @@ button {
 
   .gridContainer {
     grid-template-columns: 1fr;
+    margin-left: 15%;
   }
 
   .gridText p {
@@ -537,14 +543,27 @@ button {
 /* Laptops and small desktops */
 /* 1200px and up*/
 @media only screen and (max-width: 1200px) and (min-width: 751px) {
+  p {
+    font-size: 16px;
+  }
+
   /* Div 1 */
   .div1 {
     padding-bottom: 25px;
   }
 
+  nav ul {
+    margin: 0 auto;
+  }
+
+  nav .demo {
+    width: 25%;
+    font-size: 14px;
+  }
+
   h1 {
     margin-top: 0;
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .twoWomen {
@@ -578,17 +597,23 @@ button {
     width: 100%;
   }
 
+  h3 {
+    font-size: 20px;
+  }
+
   .gridContainer {
-    grid-column-gap: 100px;
+    grid-column-gap: 150px;
   }
 
   .gridText p {
+    font-size: 14px;
     padding: 10px 0;
     width: 70%;
   }
 
   .card {
     padding: 0;
+    padding-right: 10%;
   }
 
   /* Div 4 */
@@ -619,5 +644,38 @@ button {
 @media only screen and (max-width: 1300px) and (min-width: 1201px) {
   .firstText {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 750px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .firstText {
+    width: 100%;
+  }
+
+  .gridContainer {
+    grid-column-gap: 100px;
+  }
+
+  .gridText p {
+    padding: 10px 0;
+    width: 70%;
+    font-size: 12px;
+  }
+
+  h4 {
+    font-size: 16px;
+    margin: auto;
+  }
+
+  footer p, footer ul li {
+    font-size: 14px;
   }
 }
