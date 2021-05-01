@@ -14,6 +14,7 @@ h1, h2, h3, h4, p {
 h1 {
   font-size: 80px;
   width: 50%;
+  margin-top: 150px;
 }
 
 h2 {
@@ -39,6 +40,11 @@ p, li, a {
 
 a {
   text-decoration: none;
+}
+
+hr {
+  color: rgba(156, 105, 226, 1);
+  margin: 100px auto;
 }
 
 .gridText p {
@@ -75,6 +81,7 @@ footer {
   display: flex;
   float: left;
   padding: 50px 0;
+  width: 100%;
 }
 
 footer p {
@@ -83,11 +90,12 @@ footer p {
 
 footer ul {
   padding: 20px;
+  width: 50%;
 }
 
 footer ul li {
   margin: auto;
-  padding: 20px;
+  padding: 20px 0;
   font-size: 16px;
 }
 
@@ -106,8 +114,13 @@ div {
   padding-bottom: 150px;
 }
 
+nav button {
+  float: right;
+  width: 25%;
+}
+
 .firstText {
-  width: 32%;
+  width: 30%;
   padding: 30px 0;
 }
 
@@ -116,6 +129,10 @@ div {
   background-color: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
   padding: 100px 0;
+}
+
+.div2 p {
+  margin: 0 auto;
 }
 
 .pinkText {
@@ -134,7 +151,7 @@ div {
 }
 
 .centerText {
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .gridContainer {
@@ -175,12 +192,12 @@ div {
   background: rgba(156, 105, 226, 1);
   border-radius: 50px;
   overflow: hidden;
-  padding: 25px 0;
+  padding: 50px 0;
+  margin: 50px auto;
 }
 
 .reviewContainer {
   display: flex;
-  justify-content: space-around;
   width: 95%;
   margin-left: 5%;
 }
@@ -234,31 +251,49 @@ div {
 
 /* div 5 */
 .div5 {
-  margin: 0;
+  padding: 0;
+  position: relative;
 }
 
 .try {
-  margin: 50px 0;
+  margin-left: 0;
+}
+
+.try h2 {
+  padding: 0;
+}
+
+.address {
+  font-weight: 500;
+}
+
+.footerLinks {
+  padding: 10px 0;
+}
+
+.socials {
+  display: flex;
+  padding: 0;
 }
 
 /* images */
 .twoWomen {
-  width: 885px;
+  width: 50%;
   position: absolute;
-  right: 125px;
-  top: 250px;
+  right: 10%;
+  top: 40%;
 }
 
 .pinkGraph {
-  width: 475px;
+  width: 40%;
   float: left;
-  margin-top: -100px;
-  margin-right: 100px;
+  margin-top: -10%;
+  margin-right: 10%;
 }
 
 .gridPic {
   position: absolute;
-  width: 230px;
+  width: 55%;
   height: auto;
   top: 15%;
   left: -30%;
@@ -277,13 +312,13 @@ button {
 }
 
 .demo {
-  float: right;
   font-size: 16px;
+  font-weight: 800;
   background: white;
-  width: 210px;
   border: 0;
   border-radius: 50px;
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  width: 210px;
 }
 
 .purpButton, .pinkButton {
@@ -301,7 +336,16 @@ button {
 
 .pinkButton {
   background: rgba(240, 99, 184, 1);
+}
+
+.bottomButtons {
+  display: flex;
   float: right;
+  width: 50%;
+  position: absolute;
+  top: 10%;
+  right: 0;
+  padding: 10px 0;
 }
 
 /* logo */
@@ -311,6 +355,7 @@ button {
   justify-content: space-around;
   position: relative;
   float: left;
+  padding-left: 0;
 }
 
 .purpLogo {
@@ -354,4 +399,225 @@ button {
   height: 5px;
   border-radius: 20px;
   padding: 0;
+}
+
+.socialCir {
+  background: gray;
+  width: 50px;
+  height: 50px;
+  background: #212353;
+  opacity: 0.1;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+/* Responsive Code */
+/* Cell Phone */
+/* 600px and down */
+@media only screen and (max-width: 600px) {
+    /* Div 3 */
+  .center {
+    width: 100%;
+  }
+
+  .centerText {
+    padding: 0;
+  }
+
+  .gridContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .gridText p {
+    padding: 10px 0;
+    width: 70%;
+  }
+
+  .card {
+    padding: 0;
+  }
+}
+
+/* Tablet */
+/* 600px and up */
+@media only screen and (max-width: 750px) and (min-width: 601px) {
+  /* Div 1 */
+  .div1 {
+    padding-bottom: 25px;
+  }
+
+  nav ul {
+    margin: 0 auto;
+  }
+
+  nav .demo {
+    width: 30%;
+  }
+
+  h1 {
+    margin-top: 0;
+    font-size: 60px;
+  }
+
+  .twoWomen {
+    right: 50px;
+    top: 250px;
+  }
+
+  .firstText {
+    width: 100%;
+  }
+
+  /* Div 2 */
+  .div2 {
+    padding: 50px;
+  }
+
+  .div2 h2{
+    padding: 0;
+  }
+  
+  .div2 h2, .div2 p {
+    margin: 0 auto;
+  }
+
+  .pinkGraph {
+    margin-top: -5%;
+  }
+
+  /* Div 3 */
+  .center {
+    width: 100%;
+  }
+
+  .centerText {
+    padding: 0;
+  }
+
+  .gridContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .gridText p {
+    padding: 10px 0;
+    width: 70%;
+  }
+
+  .card {
+    padding: 0;
+  }
+
+  /* Div 4 */
+.div4 {
+  width: 100%;
+}
+
+.reviewContainer {
+  width: 90%;
+  }
+
+  #jeny {
+    display: none;
+  }
+
+  /* Div 5 */
+  .bottomButtons {
+    width: 50%;
+    right: -5%;
+  }
+
+  footer ul {
+    width: 20%;
+  }
+}
+
+/* Laptops and small desktops */
+/* 1200px and up*/
+@media only screen and (max-width: 1200px) and (min-width: 751px) {
+  /* Div 1 */
+  .div1 {
+    padding-bottom: 25px;
+  }
+
+  h1 {
+    margin-top: 0;
+    font-size: 60px;
+  }
+
+  .twoWomen {
+    width: 40%;
+    top: 25%;
+  }
+
+  .firstText {
+    width: 50%;
+  }
+
+  /* Div 2 */
+  .div2 {
+    padding: 50px;
+  }
+
+  .div2 h2{
+    padding: 0;
+  }
+  
+  .div2 h2, .div2 p {
+    margin: 0 auto;
+  }
+
+  .pinkGraph {
+    margin-top: -5%;
+  }
+
+  /* Div 3 */
+  .center {
+    width: 100%;
+  }
+
+  .gridContainer {
+    grid-column-gap: 100px;
+  }
+
+  .gridText p {
+    padding: 10px 0;
+    width: 70%;
+  }
+
+  .card {
+    padding: 0;
+  }
+
+  /* Div 4 */
+.div4 {
+  width: 100%;
+}
+
+.reviewContainer {
+  width: 90%;
+  }
+
+  #jeny {
+    display: none;
+  }
+
+  /* Div 5 */
+  .bottomButtons {
+    width: 50%;
+    right: -5%;
+  }
+
+  footer ul {
+    width: 20%;
+  }
+}
+
+/* For picky elements */
+@media only screen and (max-width: 1300px) and (min-width: 1201px) {
+  .firstText {
+    width: 100%;
+  }
 }
