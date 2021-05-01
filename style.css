@@ -116,10 +116,11 @@ div {
 
 nav button {
   float: right;
+  width: 25%;
 }
 
 .firstText {
-  width: 32%;
+  width: 30%;
   padding: 30px 0;
 }
 
@@ -128,6 +129,10 @@ nav button {
   background-color: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
   padding: 100px 0;
+}
+
+.div2 p {
+  margin: 0 auto;
 }
 
 .pinkText {
@@ -146,7 +151,7 @@ nav button {
 }
 
 .centerText {
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .gridContainer {
@@ -193,7 +198,6 @@ nav button {
 
 .reviewContainer {
   display: flex;
-  justify-content: space-around;
   width: 95%;
   margin-left: 5%;
 }
@@ -276,15 +280,15 @@ nav button {
 .twoWomen {
   width: 50%;
   position: absolute;
-  right: 100px;
-  top: 300px;
+  right: 10%;
+  top: 40%;
 }
 
 .pinkGraph {
   width: 40%;
   float: left;
-  margin-top: -100px;
-  margin-right: 100px;
+  margin-top: -10%;
+  margin-right: 10%;
 }
 
 .gridPic {
@@ -311,10 +315,10 @@ button {
   font-size: 16px;
   font-weight: 800;
   background: white;
-  width: 210px;
   border: 0;
   border-radius: 50px;
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  width: 210px;
 }
 
 .purpButton, .pinkButton {
@@ -337,10 +341,11 @@ button {
 .bottomButtons {
   display: flex;
   float: right;
-  width: 410px;
+  width: 50%;
   position: absolute;
-  top: 25px;
+  top: 10%;
   right: 0;
+  padding: 10px 0;
 }
 
 /* logo */
@@ -410,7 +415,209 @@ button {
 
 
 /* Responsive Code */
-/* tablet */
-@media only screen and (max-width: 750px) {
+/* Cell Phone */
+/* 600px and down */
+@media only screen and (max-width: 600px) {
+    /* Div 3 */
+  .center {
+    width: 100%;
+  }
 
+  .centerText {
+    padding: 0;
+  }
+
+  .gridContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .gridText p {
+    padding: 10px 0;
+    width: 70%;
+  }
+
+  .card {
+    padding: 0;
+  }
+}
+
+/* Tablet */
+/* 600px and up */
+@media only screen and (max-width: 750px) and (min-width: 601px) {
+  /* Div 1 */
+  .div1 {
+    padding-bottom: 25px;
+  }
+
+  nav ul {
+    margin: 0 auto;
+  }
+
+  nav .demo {
+    width: 30%;
+  }
+
+  h1 {
+    margin-top: 0;
+    font-size: 60px;
+  }
+
+  .twoWomen {
+    right: 50px;
+    top: 250px;
+  }
+
+  .firstText {
+    width: 100%;
+  }
+
+  /* Div 2 */
+  .div2 {
+    padding: 50px;
+  }
+
+  .div2 h2{
+    padding: 0;
+  }
+  
+  .div2 h2, .div2 p {
+    margin: 0 auto;
+  }
+
+  .pinkGraph {
+    margin-top: -5%;
+  }
+
+  /* Div 3 */
+  .center {
+    width: 100%;
+  }
+
+  .centerText {
+    padding: 0;
+  }
+
+  .gridContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .gridText p {
+    padding: 10px 0;
+    width: 70%;
+  }
+
+  .card {
+    padding: 0;
+  }
+
+  /* Div 4 */
+.div4 {
+  width: 100%;
+}
+
+.reviewContainer {
+  width: 90%;
+  }
+
+  #jeny {
+    display: none;
+  }
+
+  /* Div 5 */
+  .bottomButtons {
+    width: 50%;
+    right: -5%;
+  }
+
+  footer ul {
+    width: 20%;
+  }
+}
+
+/* Laptops and small desktops */
+/* 1200px and up*/
+@media only screen and (max-width: 1200px) and (min-width: 751px) {
+  /* Div 1 */
+  .div1 {
+    padding-bottom: 25px;
+  }
+
+  h1 {
+    margin-top: 0;
+    font-size: 60px;
+  }
+
+  .twoWomen {
+    width: 40%;
+    top: 25%;
+  }
+
+  .firstText {
+    width: 50%;
+  }
+
+  /* Div 2 */
+  .div2 {
+    padding: 50px;
+  }
+
+  .div2 h2{
+    padding: 0;
+  }
+  
+  .div2 h2, .div2 p {
+    margin: 0 auto;
+  }
+
+  .pinkGraph {
+    margin-top: -5%;
+  }
+
+  /* Div 3 */
+  .center {
+    width: 100%;
+  }
+
+  .gridContainer {
+    grid-column-gap: 100px;
+  }
+
+  .gridText p {
+    padding: 10px 0;
+    width: 70%;
+  }
+
+  .card {
+    padding: 0;
+  }
+
+  /* Div 4 */
+.div4 {
+  width: 100%;
+}
+
+.reviewContainer {
+  width: 90%;
+  }
+
+  #jeny {
+    display: none;
+  }
+
+  /* Div 5 */
+  .bottomButtons {
+    width: 50%;
+    right: -5%;
+  }
+
+  footer ul {
+    width: 20%;
+  }
+}
+
+/* For picky elements */
+@media only screen and (max-width: 1300px) and (min-width: 1201px) {
+  .firstText {
+    width: 100%;
+  }
 }
