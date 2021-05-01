@@ -80,6 +80,7 @@ footer {
   display: flex;
   float: left;
   padding: 50px 0;
+  width: 100%;
 }
 
 footer p {
@@ -256,6 +257,10 @@ nav button {
   padding: 0;
 }
 
+.address {
+  font-weight: 500;
+}
+
 /* images */
 .twoWomen {
   width: 885px;
@@ -333,6 +338,7 @@ button {
   justify-content: space-around;
   position: relative;
   float: left;
+  padding-left: 0;
 }
 
 .purpLogo {
