@@ -158,7 +158,8 @@ nav button {
   grid-template-columns: 1fr 1fr;
   gap: 50px;
   grid-column-gap: 150px;
-  margin-left: 10%;
+  margin-left: 5%;
+  width: 100%;
 }
 
 .card {
@@ -426,6 +427,7 @@ button {
   * {
     width: 95%
   }
+
   /* Div 1 */
   .div1 {
     padding-bottom: 25px;
@@ -446,36 +448,55 @@ button {
 
   nav .demo {
     width: 30%;
+    margin-top: 10px;
+  }
+
+  .demo {
+    font-size: 14px;
+    width: 170px;
+  }
+
+  button {
+    height: 35px;
+    width: 175px;
     font-size: 12px;
   }
 
   h1 {
     margin-top: 0;
-    font-size: 40px;
+    font-size: 35px;
+    padding: 35px 0;
   }
 
   .twoWomen {
-    top: 15%;
-    right: 5%;
+    top: 10%;
+    right: 15%;
+    width: 35%;
+  }
+
+  p {
+    font-size: 14px;
   }
 
   .firstText {
     width: 100%;
-    padding-top: 35px;
+    padding: 10px 0;
   }
 
   .purpButton {
     margin: 0 0 25px 0;
+    font-size: 16px;
+    width: 125px;
   }
 
   /* Div 2 */
   .div2 {
-    padding: 50px;
+    padding: 5% 0;
   }
 
   .div2 h2{
     padding: 0;
-    font-size: 30px;
+    font-size: 25px;
   }
   
   .div2 h2, .div2 p {
@@ -483,10 +504,19 @@ button {
   }
 
   .pinkGraph {
-    margin-top: -5%;
+    margin: -5% 5% 0 0;
+  }
+
+  .pinkText {
+    width: 90%;
   }
 
   /* Div 3 */
+  h2 { 
+    font-size: 30px;
+    padding: 0;
+  }
+
   .center {
     width: 100%;
   }
@@ -495,27 +525,48 @@ button {
     padding: 0;
   }
 
+  h3 {
+    font-size: 22px;
+  }
+
   .gridContainer {
     grid-template-columns: 1fr;
-    margin-left: 15%;
+  }
+
+  .gridText {
+    width: 60%;
   }
 
   .gridText p {
     padding: 10px 0;
-    width: 70%;
+    width: 100%;
+    font-size: 14px;
   }
 
   .card {
     padding: 0;
   }
 
-  /* Div 4 */
-.div4 {
-  width: 100%;
-}
+  .gridPic {
+    width: 35%;
+    left: -10%;
+  }
 
-.reviewContainer {
-  width: 90%;
+  /* Div 4 */
+  .div4 {
+    width: 100%;
+  }
+
+  .div4 h2 {
+    margin-left: 5%;
+  }
+
+  .reviewContainer {
+    width: 90%;
+  }
+
+  .review {
+    padding: 5%;
   }
 
   #jeny {
@@ -523,13 +574,32 @@ button {
   }
 
   /* Div 5 */
+  .pinkButton {
+    font-size: 16px;
+  }
+
   .bottomButtons {
-    width: 50%;
-    right: -5%;
+    display: block;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  footer {
+    padding: 0;
   }
 
   footer ul {
     width: 20%;
+  }
+
+  footer ul li {
+    padding: 15px 0;
+  }
+
+  .socials {
+    display: block;
   }
 }
 
@@ -551,6 +621,9 @@ button {
 
   nav .demo {
     width: 25%;
+  }
+
+  .demo {
     font-size: 14px;
   }
 
@@ -570,7 +643,7 @@ button {
 
   /* Div 2 */
   .div2 {
-    padding: 50px;
+    padding: 5%;
   }
 
   .div2 h2{
@@ -645,8 +718,16 @@ button {
     font-size: 45px;
   }
 
+  h2 {
+    font-size: 35px;
+  }
+
   h3 {
     font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
   }
 
   .firstText {
@@ -655,6 +736,10 @@ button {
 
   .gridContainer {
     grid-column-gap: 100px;
+  }
+
+  .gridText h3 {
+    font-size: 16px;
   }
 
   .gridText p {
